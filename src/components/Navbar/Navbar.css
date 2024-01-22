@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+    background-image: url(../../Assets/99-banner.jpg);
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 40%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    transition: .1s;
+}
+
+.menus p:hover{
+    color: white;
+}
+
+.menus button{
+    border: none;
+    padding: 6px 30px 6px 30px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact{
+    display: flex;
+    gap: 2rem;
+    margin-right: 5%;
+}
+
+.search{
+    background: white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    margin-top: -82px; 
+}
+
+.serach-menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    color: #42526e;
+    font-weight: 500;
+}
+
+.choose{
+    border-right: 1px solid grey;
+    padding: 25px;
+    color: #42526e;
+}
+
+
+.search-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container2 input{
+    width: 60%;
+    padding: 25px;
+    outline: none;
+    border: none;
+}
+
+.search-container2 input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    color: #42526e;
+    font-weight: 400;
+}
+
+.seach-flat{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.seach-flat button{
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    border: none;
+    background: #0078db;
+    color: white;
+    border-radius: 5px;
+}
+
